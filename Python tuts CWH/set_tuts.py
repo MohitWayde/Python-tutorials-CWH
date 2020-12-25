@@ -1,0 +1,11 @@
+#set
+s=set([1,2,3,4])
+s1=s.union({1,3,4})
+s2=s.intersection({4,3,8})
+        #OR
+s3=s.intersection(s1,s2)
+print(s)
+print(s1)
+print(s2)
+print(s3)
+print(type(s))
